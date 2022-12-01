@@ -14,6 +14,8 @@
 		29AF9E602924E15F002231E1 /* MyToDosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9E5F2924E15F002231E1 /* MyToDosTests.swift */; };
 		29AF9E6A2924E15F002231E1 /* MyToDosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9E692924E15F002231E1 /* MyToDosUITests.swift */; };
 		29AF9E6C2924E15F002231E1 /* MyToDosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9E6B2924E15F002231E1 /* MyToDosUITestsLaunchTests.swift */; };
+		29AF9EA3293840E8002231E1 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9EA2293840E8002231E1 /* ImageFetcher.swift */; };
+		29AF9EA52938450A002231E1 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF9EA42938450A002231E1 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		29AF9E652924E15F002231E1 /* MyToDosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AF9E692924E15F002231E1 /* MyToDosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDosUITests.swift; sourceTree = "<group>"; };
 		29AF9E6B2924E15F002231E1 /* MyToDosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29AF9EA2293840E8002231E1 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		29AF9EA42938450A002231E1 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		29AF9E4D2924E15C002231E1 /* MyToDos */ = {
 			isa = PBXGroup;
 			children = (
+				29AF9EA1293840CA002231E1 /* image */,
 				29AF9E4E2924E15C002231E1 /* MyToDosApp.swift */,
 				29AF9E502924E15C002231E1 /* ContentView.swift */,
 				29AF9E522924E15F002231E1 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				29AF9E6B2924E15F002231E1 /* MyToDosUITestsLaunchTests.swift */,
 			);
 			path = MyToDosUITests;
+			sourceTree = "<group>";
+		};
+		29AF9EA1293840CA002231E1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				29AF9EA2293840E8002231E1 /* ImageFetcher.swift */,
+				29AF9EA42938450A002231E1 /* ImageView.swift */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AF9EA52938450A002231E1 /* ImageView.swift in Sources */,
+				29AF9EA3293840E8002231E1 /* ImageFetcher.swift in Sources */,
 				29AF9E512924E15C002231E1 /* ContentView.swift in Sources */,
 				29AF9E4F2924E15C002231E1 /* MyToDosApp.swift in Sources */,
 			);
